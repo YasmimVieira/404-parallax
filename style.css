@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Patua One', cursive;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/p404.png), #151729;
+}
+
+.principal {
+    font-size: 9.0rem;
+    color: #FFFF;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #FFF;
+}
+
+.text {
+    font-size: 1.3em;
+    color: #FFF;
+}
+
+.link-home {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.link-home:hover {
+    color: #ff0562
+}
